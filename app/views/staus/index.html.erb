@@ -11,7 +11,6 @@
 
 <% @staus.each do |stau| %>
   <tr>
-    <td><%= stau.name %></td>
     <td><%= stau.content %></td>
     <td><%= link_to 'Show', stau %></td>
     <td><%= link_to 'Edit', edit_stau_path(stau) %></td>
